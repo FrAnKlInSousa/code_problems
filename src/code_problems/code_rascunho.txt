@@ -1,41 +1,8 @@
 
-#######
-
-
-
-from typing import List, Any
-# from preloaded import MORSE_CODE, LETTER_VALUES
-
-
 #
 #
 #
 
-#
-#
-#
-#
-#
-# class BestTravel:
-#     """
-#     https://www.codewars.com/kata/55e7280b40e1c4a06d0000aa/train/python
-#     """
-#     @staticmethod
-#     def best_travel(maximum_distance: int, num_towns: int, distances: List[int]):
-#         distances_group = itertools.combinations(distances, num_towns)
-#         better_distance = [
-#             sum(distances)
-#             for distances in distances_group
-#             if sum(distances) <= maximum_distance
-#         ]
-#         better_distance.sort(reverse=True)
-#         if better_distance:
-#             return better_distance[0]
-#
-#     @staticmethod
-#     def best_travel_clever(maximum_distance: int, num_towns: int, distances: List[int]):
-#         group_sum = itertools.combinations(distances, num_towns)
-#         return max({sum(group) for group in group_sum if sum(group) <= maximum_distance}, default=None)
 #
 # class TrailingZeros:
 #     """
