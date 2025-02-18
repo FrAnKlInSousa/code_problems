@@ -1,0 +1,45 @@
+[project]
+name = "code-problems"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Your Name",email = "you@example.com"}
+]
+readme = "README.md"
+requires-python = "3.12.*"
+dependencies = [
+]
+
+[tool.poetry]
+packages = [{include = "code_problems", from = "src"}]
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.9.6"
+pytest = "^8.3.4"
+pytest-cov = "^6.0.0"
+taskipy = "^1.14.1"
+
+[tool.pytest.ini_options]
+pathonpath = '.'
+addopts = '-p no:warnings'
+
+[tool.ruff]
+line-length = 79
+
+[tool.ruff.lint]
+preview = true
+select = ['I', 'F', 'E', 'W', 'PL', 'PT']
+
+[tool.ruff.format]
+preview = true
+quote-style = 'single'
+
+[tool.taskipy.tasks]
+pre_test = 'task lint'
+test = 'pytest -s -x -vv'
+lint = 'ruff check . && ruff check . --diff'
+format = 'ruff check . --fix && ruff format .'
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
