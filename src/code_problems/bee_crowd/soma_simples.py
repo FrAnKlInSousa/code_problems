@@ -1,5 +1,6 @@
 # https://judge.beecrowd.com/pt/problems/view/1003
 
+
 def soma_dois_numeros():
     num_1 = int(input())
     num_2 = int(input())

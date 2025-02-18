@@ -6,7 +6,7 @@ authors = [
     {name = "Your Name",email = "you@example.com"}
 ]
 readme = "README.md"
-requires-python = "3.12.*"
+requires-python = ">=3.12,<3.13"
 dependencies = [
 ]
 
@@ -25,6 +25,7 @@ addopts = '-p no:warnings'
 
 [tool.ruff]
 line-length = 79
+exclude = ['tests']
 
 [tool.ruff.lint]
 preview = true
