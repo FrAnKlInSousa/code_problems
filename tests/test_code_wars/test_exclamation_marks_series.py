@@ -1,7 +1,7 @@
 import pytest
 
 from src.code_problems.code_wars.exclamation_marks_series import (
-    change_to_exclamation_mark,
+    change_to_exclamation_mark, change_to_exclamation_mark_regex,
 )
 
 
@@ -14,6 +14,7 @@ from src.code_problems.code_wars.exclamation_marks_series import (
         ('ABCDE', '!BCD!'),
     ],
 )
-def test_change_to_exclamation_marks(text, expected):
-    result = change_to_exclamation_mark(text)
+@pytest.mark.parametrize('function', [change_to_exclamation_mark, change_to_exclamation_mark_regex])
+def test_change_to_exclamation_marks(text, expected, function):
+    result = function(text)
     assert result == expected

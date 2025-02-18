@@ -10,3 +10,5 @@ def change_to_exclamation_mark(text: str) -> str:
 
     return ''.join(final_text)
 
+def change_to_exclamation_mark_regex(text: str) -> str:
+    return text.translate(str.maketrans('aeiouAEIOU', '!'*10))
