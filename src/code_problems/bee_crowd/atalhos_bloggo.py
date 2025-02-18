@@ -1,5 +1,6 @@
 # https://judge.beecrowd.com/pt/problems/view/1239
 
+
 def bloggo() -> None:
     phrase = input()
     closed_star = True
@@ -20,9 +21,10 @@ def bloggo() -> None:
             else:
                 closed_under = True
                 final_phrase.append('</i>')
-        if char not in ['*', '_']:
+        if char not in {'*', '_'}:
             final_phrase.append(char)
     print(''.join(final_phrase))
+
 
 while True:
     try:
