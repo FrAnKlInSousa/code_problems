@@ -9,7 +9,6 @@
 | [count_odd_numbers.py](./src/code_problems/code_wars/count_odd_numbers.py)             | [Count Odd Numbers below n](https://www.codewars.com/kata/59342039eb450e39970000a6)         |
 | [exclamation_marks_series.py](src/code_problems/code_wars/exclamation_marks_series.py) | [Exclamation marks series #11](https://www.codewars.com/kata/57fb09ef2b5314a8a90001ed) | 8 kyu  |       |
 | [take_the_derivative.py](src/code_problems/code_wars/kyu_8/take_the_derivative.py)                                                                                   | [Take the Derivative](https://www.codewars.com/kata/5963c18ecb97be020b0000a2) | 8 kyu |
-| [surface_area_and_volume_of_a_box.py](src/code_problems/code_wars/kyu_8/surface_area_and_volume_of_a_box.py)                                                                                   | [Take the Derivative](https://www.codewars.com/kata/5963c18ecb97be020b0000a2) | 8 kyu |
+| [surface_area_and_volume_of_a_box.py](src/code_problems/code_wars/kyu_8/surface_area_and_volume_of_a_box.py)                                                                                   | [Surface Area and Volume of a Box](https://www.codewars.com/kata/565f5825379664a26b00007c/) | 8 kyu |
+| [return_the_day.py](src/code_problems/code_wars/kyu_8/return_the_day.py)                                                                                   | [Return the day](https://www.codewars.com/kata/59dd3ccdded72fc78b000b25) | 8 kyu |
 
-
-[.py](./src/code_problems/code_wars/)
