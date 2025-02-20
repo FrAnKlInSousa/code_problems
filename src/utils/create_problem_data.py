@@ -4,5 +4,10 @@ def format_name(name: str):
     print(name, test)
     return name
 
+
 def table_data(name: str, level: int):
-    print(f'| [{format_name(name)}.py](src/code_problems/code_wars/kyu_{level}/) | [{name}]() | {level} Kyu')
+    print(
+        f'| [{format_name(name)}.py]'
+        f'(src/code_problems/code_wars/kyu_{level}/)'
+        f' | [{name}]() | {level} Kyu'
+    )
