@@ -13,4 +13,5 @@
 | [return_the_day.py](src/code_problems/code_wars/kyu_8/return_the_day.py)                                     | [Return the day](https://www.codewars.com/kata/59dd3ccdded72fc78b000b25)                    | 8 kyu |
 | [driving_school_series_2.py](src/code_problems/code_wars/kyu_7/driving_school_series_2.py)                   | [Driving School Series #2](https://www.codewars.com/kata/589b1c15081bcbfe6700017a)          | 7 Kyu |
 | [easy_line.py](src/code_problems/code_wars/kyu_7/easy_line.py)                                               | [Easy Line](https://www.codewars.com/kata/56e7d40129035aed6c000632)                         | 7 Kyu |
+| [find_twins.py](src/code_problems/code_wars/kyu_7/) | [Find twins](https://www.codewars.com/kata/5834315e06f227a6ac000099) | 7 Kyu |
 
