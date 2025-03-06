@@ -17,3 +17,9 @@
 | [elapsed_seconds.py](src/code_problems/code_wars/kyu_7/elapsed_seconds.py)                                   | [Elapsed Seconds](https://www.codewars.com/kata/517b25a48557c200b800000c)                    | 7 Kyu |
 | [the_solar_system_jumbled_planets.py](src/code_problems/code_wars/kyu_7/the_solar_system_jumbled_planets.py) | [The Solar System - Jumbled Planets](https://www.codewars.com/kata/678e32f27625ec1b6a0e5976) | 7 Kyu |
 
+# LeetCode
+
+
+| Solution                                                                                                     | Link                                                                                         | Level |
+|--------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|------|
+| [find_missing_and_repeated_values.py](src/code_problems/code_wars/kyu_Easy/find_missing_and_repeated_values.py) | [Find Missing and Repeated Values](https://leetcode.com/problems/find-missing-and-repeated-values/description/) | Easy |
