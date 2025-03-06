@@ -22,4 +22,4 @@
 
 | Solution                                                                                                     | Link                                                                                         | Level |
 |--------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|------|
-| [find_missing_and_repeated_values.py](src/code_problems/code_wars/kyu_Easy/find_missing_and_repeated_values.py) | [Find Missing and Repeated Values](https://leetcode.com/problems/find-missing-and-repeated-values/description/) | Easy |
+| [find_missing_and_repeated_values.py](src/code_problems/leetcode/easy/find_missing_and_repeated_values.py) | [Find Missing and Repeated Values](https://leetcode.com/problems/find-missing-and-repeated-values/description/) | Easy |
