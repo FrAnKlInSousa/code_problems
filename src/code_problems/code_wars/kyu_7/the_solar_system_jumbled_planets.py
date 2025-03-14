@@ -11,6 +11,7 @@ celestial_order = {
     'Jupiter': 9,
 }
 
+
 def solar_system_jumbled_planets(astronomical_objects: list) -> list:
     prev = None
     order = []

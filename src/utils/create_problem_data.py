@@ -14,12 +14,25 @@ def format_name(name: str):
     return final_name
 
 
+def build_path(source, level: [int, str]):
+    path = f'src/code_problems/{source}/'
+    difficult = ''
+    if source == 'code_wars':
+        path += f'kyu_{level}'
+        difficult += f'{level} Kyu'
+    elif source == 'leetcode':
+        path += level
+        difficult = level.capitalize()
+    return path, difficult
 
-def table_data(name: str, level: int):
+
+def table_data(name: str, level: int | str = 'easy', source='code_wars'):
     formated_name = format_name(name)
     print(formated_name, 'test_' + formated_name)
+    path, difficult = build_path(source, level)
+
     print(
         f'| [{formated_name}.py]'
-        f'(src/code_problems/code_wars/kyu_{level}/{formated_name}.py)'
-        f' | [{name}]() | {level} Kyu |'
+        f'({path}/{formated_name}.py)'
+        f' | [{name}]() | {difficult} |'
     )
