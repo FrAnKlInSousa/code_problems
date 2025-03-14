@@ -15,6 +15,7 @@ def find_values(grid: List[List[int]]) -> List[int]:
                 duplicated.add(cel)
     return [repeated, missing[0]]
 
+
 def find_values_alternative(grid: List[List[int]]) -> List[int]:
     values_to_check = set(range(1, (len(grid) ** 2) + 1))
     matrix_values = set()

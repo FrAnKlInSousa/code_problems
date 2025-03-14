@@ -13,6 +13,7 @@ def format_name(name: str):
     final_name = temp_name.lower().replace(' ', '_')
     return final_name
 
+
 def build_path(source, level: [int, str]):
     path = f'src/code_problems/{source}/'
     difficult = ''
@@ -23,6 +24,7 @@ def build_path(source, level: [int, str]):
         path += level
         difficult = level.capitalize()
     return path, difficult
+
 
 def table_data(name: str, level: int | str = 'easy', source='code_wars'):
     formated_name = format_name(name)
