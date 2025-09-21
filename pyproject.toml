@@ -38,7 +38,8 @@ quote-style = 'single'
 
 [tool.taskipy.tasks]
 pre_test = 'task lint'
-test = 'pytest -s -x -vv'
+test = 'pytest -s -x --cov=src -vv'
+post_test = 'coverage html'
 lint = 'ruff check . && ruff check . --diff'
 format = 'ruff check . --fix && ruff format .'
 
