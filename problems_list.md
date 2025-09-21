@@ -18,6 +18,7 @@
 | [the_solar_system_jumbled_planets.py](src/code_problems/code_wars/kyu_7/the_solar_system_jumbled_planets.py) | [The Solar System - Jumbled Planets](https://www.codewars.com/kata/678e32f27625ec1b6a0e5976) | 7 Kyu |
 | [unique_sets.py](src/code_problems/code_wars/kyu_6/unique_sets.py)                                           | [Unique sets](https://www.codewars.com/kata/67a88017e4f6c78e971870ee)                        | 6 Kyu |
 | [pete_the_baker.py](src/code_problems/code_wars/kyu_5/pete_the_baker.py)                                     | [Pete, the baker](https://www.codewars.com/kata/525c65e51bf619685c000059)                    | 5 Kyu |
+| [removing_elements.py](src/code_problems/code_wars/kyu_8/removing_elements.py)                               | [Removing Elements]()                                                                        | 8 Kyu |
 
 
 # LeetCode
