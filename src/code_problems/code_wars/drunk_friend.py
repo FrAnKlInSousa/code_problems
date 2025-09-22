@@ -2,21 +2,22 @@
 https://www.codewars.com/kata/558ffec0f0584f24250000a0/train/python
 """
 
-from string import ascii_lowercase, ascii_uppercase
+from string import ascii_lowercase, ascii_uppercase, digits, punctuation
 from typing import Any
 
 
-# todo fix me
 def drunk_friend(text: Any) -> str:
     if not isinstance(text, str):
         return 'Input is not a string'
     lower_letters = '_' + ascii_lowercase
     upper_letters = '_' + ascii_uppercase
 
-    # to fix
     def translate(word):
         translated = []
         for letter in word:
+            if letter in punctuation or letter in digits:
+                translated.append(letter)
+                continue
             if letter in lower_letters:
                 translated.append(lower_letters[-lower_letters.index(letter)])
             else:
@@ -24,5 +25,5 @@ def drunk_friend(text: Any) -> str:
         return ''.join(translated)
 
     return ' '.join(
-        translate(word) if word.isalpha() else word for word in text.split()
+        translate(word) if word.isascii() else word for word in text.split(' ')
     )
