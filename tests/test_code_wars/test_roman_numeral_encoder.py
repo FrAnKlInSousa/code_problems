@@ -28,5 +28,5 @@ from src.code_problems.code_wars.roman_numeral_encoder import (
     'function', [roman_numeral_encoder, roman_numeral_encoder_gpt]
 )
 def test_roman_numeral_encoder(number, expected, function):
-    result = roman_numeral_encoder_gpt(number)
+    result = function(number)
     assert result == expected
