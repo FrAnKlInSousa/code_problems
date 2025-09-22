@@ -7,3 +7,7 @@ def remove_every_other(my_list: list[Any]) -> list[Any]:
         if index % 2 == 0:
             new_elements.append(element)
     return new_elements
+
+
+def remove_every_other_b(my_list: list[Any]) -> list[Any]:
+    return my_list[::2]
