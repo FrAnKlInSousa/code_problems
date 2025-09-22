@@ -36,3 +36,6 @@ def table_data(name: str, level: int | str = 'easy', source='code_wars'):
         f'({path}/{formated_name}.py)'
         f' | [{name}]() | {difficult} |'
     )
+
+
+table_data('Removing Elements', 8)
