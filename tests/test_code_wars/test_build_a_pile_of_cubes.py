@@ -1,6 +1,6 @@
 import pytest
 
-from src.code_problems.code_wars.build_a_pile_of_cubes import (
+from src.code_problems.code_wars.kyu_6.build_a_pile_of_cubes import (
     pile_of_cubes,
 )
 

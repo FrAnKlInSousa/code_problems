@@ -21,8 +21,9 @@
 | [removing_elements.py](src/code_problems/code_wars/kyu_8/removing_elements.py)                               | [Removing Elements]()                                                                        | 8 Kyu |
 | [area_or_perimeter.py](src/code_problems/code_wars/kyu_8/area_or_perimeter.py)                               | [Area or Perimeter]()                                                                        | 8 Kyu |
 | [ensure_question.py](src/code_problems/code_wars/kyu_8/ensure_question.py)                                   | [Ensure question]()                                                                          | 8 Kyu |
-| [naughty_number.py](src/code_problems/code_wars/kyu_8/naughty_number.py)                                     | [Naughty number](https://www.codewars.com/kata/679bdbe30a5faf7bbf634e0f)                     | 8 Kyu |                                                                           | 8 Kyu |
-| [build_a_pile_of_cubes.py](src/code_problems/code_wars/kyu_8/build_a_pile_of_cubes.py)                       | [Build a pile of Cubes](https://www.codewars.com/kata/5592e3bd57b64d00f3000047/python)       | 8 Kyu |
+| [naughty_number.py](src/code_problems/code_wars/kyu_7/naughty_number.py)                                     | [Naughty number](https://www.codewars.com/kata/679bdbe30a5faf7bbf634e0f)                     | 8 Kyu |                                                                           | 8 Kyu |
+| [build_a_pile_of_cubes.py](src/code_problems/code_wars/kyu_6/build_a_pile_of_cubes.py)                       | [Build a pile of Cubes](https://www.codewars.com/kata/5592e3bd57b64d00f3000047/python)       | 8 Kyu |
+| [find_the_odd_int.py](src/code_problems/code_wars/kyu_6/find_the_odd_int.py)                                 | [Find the odd int](https://www.codewars.com/kata/54da5a58ea159efa38000836)                   | 8 Kyu |
 
 
 # LeetCode

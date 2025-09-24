@@ -1,6 +1,6 @@
 import pytest
 
-from src.code_problems.code_wars.naughty_number import (
+from src.code_problems.code_wars.kyu_7.naughty_number import (
     naughty_number,
     naughty_number_clever,
 )
