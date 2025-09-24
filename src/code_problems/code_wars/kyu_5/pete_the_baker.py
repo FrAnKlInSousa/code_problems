@@ -10,9 +10,7 @@ def pete_the_baker(recipe: dict, ingredients: dict):
     for ingredient, quantity in recipe.items():
         for available_ingredient, available_quantity in ingredients.items():
             if available_ingredient == ingredient:
-                if quantity > available_quantity:
-                    return 0
-                elif (
+                if (
                     max_recipe is None
                     or (available_quantity // quantity) < max_recipe
                 ):
