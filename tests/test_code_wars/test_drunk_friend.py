@@ -12,7 +12,8 @@ from src.code_problems.code_wars.drunk_friend import drunk_friend
         ("Tl slnv, blf'iv wifmp", "Go home, you're drunk"),
         ("Hfiv r xzm wzmxv lm xlk'h xzi, slow nb yvvi", "Sure i can dance on cop's car, hold my beer"),
         ("Hvv? R'n mlg gszg wifmp, r xzm hgroo gzpv nb xolgsvh luu", "See? I'm not that drunk, i can still take my clothes off"),
-        ("I NK ", "R MP ")
+        ("I NK ", "R MP "),
+        (23, 'Input is not a string')
     ],
 )
 @pytest.mark.parametrize('function', [drunk_friend])
