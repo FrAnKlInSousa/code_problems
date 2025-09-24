@@ -22,6 +22,7 @@
 | [area_or_perimeter.py](src/code_problems/code_wars/kyu_8/area_or_perimeter.py)                               | [Area or Perimeter]()                                                                        | 8 Kyu |
 | [ensure_question.py](src/code_problems/code_wars/kyu_8/ensure_question.py)                                   | [Ensure question]()                                                                          | 8 Kyu |
 | [naughty_number.py](src/code_problems/code_wars/kyu_8/naughty_number.py)                                     | [Naughty number](https://www.codewars.com/kata/679bdbe30a5faf7bbf634e0f)                     | 8 Kyu |                                                                           | 8 Kyu |
+| [build_a_pile_of_cubes.py](src/code_problems/code_wars/kyu_8/build_a_pile_of_cubes.py)                       | [Build a pile of Cubes](https://www.codewars.com/kata/5592e3bd57b64d00f3000047/python)       | 8 Kyu |
 
 
 # LeetCode

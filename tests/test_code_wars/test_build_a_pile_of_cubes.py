@@ -1,7 +1,6 @@
 import pytest
 
-from src.code_problems.code_wars.pile_of_cubes import (
-    pile_of_cubes_clever,
+from src.code_problems.code_wars.build_a_pile_of_cubes import (
     pile_of_cubes,
 )
 
@@ -25,7 +24,6 @@ from src.code_problems.code_wars.pile_of_cubes import (
     'function',
     [
         pile_of_cubes,
-        pile_of_cubes_clever,
     ],
 )
 def test_pile_of_cubes(number, expected, function):
