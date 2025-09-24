@@ -5,7 +5,7 @@ https://www.codewars.com/kata/54da5a58ea159efa38000836
 from typing import List
 
 
-def find_the_odd(numbers: List[int]) -> int:
+def find_the_odd(numbers: List[int]) -> int | None:
     count_numbers = {}
     for num in numbers:
         if num not in count_numbers:
@@ -15,7 +15,6 @@ def find_the_odd(numbers: List[int]) -> int:
     for k, v in count_numbers.items():
         if v % 2 != 0:
             return k
-    return 0
 
 
 def find_the_odd_alternative(numbers: List[int]) -> int:
