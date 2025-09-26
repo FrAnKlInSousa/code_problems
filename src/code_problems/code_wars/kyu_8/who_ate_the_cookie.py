@@ -1,9 +1,8 @@
 def cookie(data):
     message = 'Who ate the last cookie? It was'
 
-    if type(data) == str:
+    if type(data) is str:
         return f'{message} Zach!'
-    elif type(data) in [int, float]:
+    elif type(data) in {int, float}:
         return f'{message} Monica!'
     return f'{message} the dog!'
-
