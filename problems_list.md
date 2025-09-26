@@ -26,6 +26,7 @@
 | [find_the_odd_int.py](src/code_problems/code_wars/kyu_6/find_the_odd_int.py)                                 | [Find the odd int](https://www.codewars.com/kata/54da5a58ea159efa38000836)                   | 8 Kyu |
 | [who_ate_the_cookie.py](src/code_problems/code_wars/kyu_8/who_ate_the_cookie.py)                             | [Who ate the cookie?](https://www.codewars.com/kata/55a996e0e8520afab9000055/train/python)   | 8 Kyu |
 | [counting_sheep.py](src/code_problems/code_wars/kyu_8/counting_sheep.py)                                     | [Counting sheep](https://www.codewars.com/kata/54edbc7200b811e956000556/train/python)        | 8 Kyu |
+| [remove_string_spaces.py](src/code_problems/code_wars/kyu_8/remove_string_spaces.py)                         | [Remove String Spaces](https://www.codewars.com/kata/57eae20f5500ad98e50002c5/train/python)  | 8 Kyu |
 
 
 # LeetCode
