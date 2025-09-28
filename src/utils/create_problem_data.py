@@ -38,4 +38,4 @@ def table_data(name: str, level: int | str = 'easy', source='code_wars'):
     )
 
 
-table_data('Removing Elements', 8)
+table_data('grader', 8)

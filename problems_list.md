@@ -30,7 +30,7 @@
 | [convert_number_to_reversed_array_of_digits.py](src/code_problems/code_wars/kyu_8/convert_number_to_reversed_array_of_digits.py) | [Convert number to reversed array of digits](https://www.codewars.com/kata/5583090cbe83f4fd8c000051/train/python) | 8 Kyu |
 | [remove_first_and_last_character_part_two.py](src/code_problems/code_wars/kyu_8/remove_first_and_last_character_part_two.py)     | [Remove First and Last Character Part Two](https://www.codewars.com/kata/570597e258b58f6edc00230d/train/python)   | 8 Kyu |
 | [is_the_string_uppercase.py](src/code_problems/code_wars/kyu_8/is_the_string_uppercase.py)                                       | [Is the string uppercase](https://www.codewars.com/kata/56cd44e1aa4ac7879200010b)                                 | 8 Kyu |
-
+| [grader.py](src/code_problems/code_wars/kyu_8/grader.py)                                                                         | [grader](https://www.codewars.com/kata/53d16bd82578b1fb5b00128c/train/python)                                     | 8 Kyu |
 
 # LeetCode
 
