@@ -1,6 +1,6 @@
 import pytest
 
-from src.code_problems.code_wars.kyu_8.grader import grader
+from src.code_problems.code_wars.kyu_8.grader import grader, grader_clever
 
 
 @pytest.mark.parametrize('score,expected', [
@@ -15,7 +15,7 @@ from src.code_problems.code_wars.kyu_8.grader import grader
     (0.00, 'F'),
     (0.67, 'D')
 ])
-@pytest.mark.parametrize('function', [grader])
+@pytest.mark.parametrize('function', [grader, grader_clever])
 def test_grader(score, expected, function):
     result = function(score)
     assert result == expected
