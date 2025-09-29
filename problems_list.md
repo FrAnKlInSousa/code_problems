@@ -33,6 +33,7 @@
 | [grader.py](src/code_problems/code_wars/kyu_8/grader.py)                                                                         | [grader](https://www.codewars.com/kata/53d16bd82578b1fb5b00128c/train/python)                                     | 8 Kyu |
 | [find_your_villain_name.py](src/code_problems/code_wars/kyu_7/find_your_villain_name.py)                                         | [Find Your Villain Name](https://www.codewars.com/kata/536c00e21da4dc0a0700128b)                                  | 7 Kyu |
 | [remove_b_m_w.py](src/code_problems/code_wars/kyu_7/remove_b_m_w.py)                                                             | [Remove B M W](https://www.codewars.com/kata/59de795c289ef9197f000c48/train/python)                               | 7 Kyu |
+| [easy_time_convert.py](src/code_problems/code_wars/kyu_7/easy_time_convert.py)                                                   | [Easy Time Convert](https://www.codewars.com/kata/5a084a098ba9146690000969)                                       | 7 Kyu |
 
 
 # LeetCode
