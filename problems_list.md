@@ -32,6 +32,7 @@
 | [is_the_string_uppercase.py](src/code_problems/code_wars/kyu_8/is_the_string_uppercase.py)                                       | [Is the string uppercase](https://www.codewars.com/kata/56cd44e1aa4ac7879200010b)                                 | 8 Kyu |
 | [grader.py](src/code_problems/code_wars/kyu_8/grader.py)                                                                         | [grader](https://www.codewars.com/kata/53d16bd82578b1fb5b00128c/train/python)                                     | 8 Kyu |
 | [find_your_villain_name.py](src/code_problems/code_wars/kyu_7/find_your_villain_name.py)                                         | [Find Your Villain Name](https://www.codewars.com/kata/536c00e21da4dc0a0700128b)                                  | 7 Kyu |
+| [remove_b_m_w.py](src/code_problems/code_wars/kyu_7/remove_b_m_w.py)                                                             | [Remove B M W](https://www.codewars.com/kata/59de795c289ef9197f000c48/train/python)                               | 7 Kyu |
 
 
 # LeetCode
