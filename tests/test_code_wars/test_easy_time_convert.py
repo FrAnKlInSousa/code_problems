@@ -1,6 +1,6 @@
 import pytest
 
-from src.code_problems.code_wars.kyu_7.easy_time_convert import time_convert, time_convert_alternative
+from src.code_problems.code_wars.kyu_7.easy_time_convert import time_convert, time_convert_clever
 
 
 @pytest.mark.parametrize('num,expected', [
@@ -15,7 +15,7 @@ from src.code_problems.code_wars.kyu_7.easy_time_convert import time_convert, ti
         (970, '16:10'),
         (565757, '9429:17'),
 ])
-@pytest.mark.parametrize('function', [time_convert, time_convert_alternative])
+@pytest.mark.parametrize('function', [time_convert, time_convert_clever])
 def test_easy_time_convert(num, expected, function):
     result = function(num)
     assert result == expected
