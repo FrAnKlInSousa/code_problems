@@ -93,8 +93,13 @@ pyenv install 3.12:latest
 ```commandline
 poetry install
 ```
+Exibe o comando para ativar o ambiente virtual
 ```commandline
 poetry env activate
+```
+Para ativar, você pode digitar o comando printado pelo comando logo acima ou então pode usar em conjunto com o comando eval para já ativá-lo:
+```commandline
+eval $(poetry env activate)
 ```
 
 ## Configurando o pycharm

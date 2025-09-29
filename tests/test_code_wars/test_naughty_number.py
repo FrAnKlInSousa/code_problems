@@ -1,9 +1,8 @@
 import pytest
 
-from src.code_problems.code_wars.naughty_number import (
+from src.code_problems.code_wars.kyu_7.naughty_number import (
     naughty_number,
     naughty_number_clever,
-    naughty_number_gpt,
 )
 
 
@@ -32,7 +31,7 @@ from src.code_problems.code_wars.naughty_number import (
     ],
 )
 @pytest.mark.parametrize(
-    'function', [naughty_number, naughty_number_clever, naughty_number_gpt]
+    'function', [naughty_number, naughty_number_clever]
 )
 def test_naughty_number(arr, expected, function):
     result = function(arr)

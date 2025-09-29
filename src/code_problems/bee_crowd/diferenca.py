@@ -11,4 +11,11 @@ def diff():
     print(f'DIFERENCA = {diferenca}')
 
 
+# links para ajudar a testar prints:
+# https://www.youtube.com/watch?v=mjpJsKlF2-0
+# (live onde eu pergunto sobre testes com prints)
+# https://exercicios.dunossauro.com/
+# https://www.youtube.com/watch?v=8uiMnwIkPYA
+
+
 diff()

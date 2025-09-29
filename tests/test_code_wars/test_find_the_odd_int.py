@@ -1,6 +1,6 @@
 import pytest
 
-from src.code_problems.code_wars.find_the_odd import (
+from src.code_problems.code_wars.kyu_6.find_the_odd_int import (
     find_the_odd,
     find_the_odd_alternative,
 )
