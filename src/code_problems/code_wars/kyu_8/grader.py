@@ -10,5 +10,12 @@ def grader(score) -> str:
     if score >= 0.6:
         return 'D'
 
+
 def grader_clever(score) -> str:
-    return 'FDCBAF'[(score > 1) + (score >= 0.9) + (score >= 0.8) + (score >= 0.7) + (score >= 0.6)]
+    return 'FDCBAF'[
+        (score > 1)
+        + (score >= 0.9)
+        + (score >= 0.8)
+        + (score >= 0.7)
+        + (score >= 0.6)
+    ]
