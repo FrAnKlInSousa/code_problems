@@ -18,11 +18,3 @@ def hex_color(codes: str):
     elif r == b and g < r:
         return 'magenta'
     return 'white'
-
-
-"""
-Linguagem e tecnologias: python, pytest, fastapi, MongoDB, PostgreSQL, Docker
-Experiência em projetos conduzidos com metodologia ágil (Kanban, SCRUM)
-
-"""
-
