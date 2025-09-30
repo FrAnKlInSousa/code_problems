@@ -1,3 +1,5 @@
+import os
+
 from src.utils.remove_extra_spaces import remove_extra_spaces
 
 
@@ -31,11 +33,38 @@ def table_data(name: str, level: int | str = 'easy', source='code_wars'):
     print(formated_name, 'test_' + formated_name)
     path, difficult = build_path(source, level)
 
+    file_name = f'{formated_name}'
     print(
         f'| [{formated_name}.py]'
         f'({path}/{formated_name}.py)'
         f' | [{name}]() | {difficult} |'
     )
+    return file_name, level
 
 
-table_data('Find', 7)
+def create_files(file_name, platform='code_wars', level='kyu_7'):
+    base_dir = '/home/franklin/projetos/code_problems/'
+    target_dir = f'{base_dir}src/code_problems/code_wars/{level}/'
+    target_test_dir = f'{base_dir}tests/test_code_wars/'
+
+    if not os.path.exists(target_dir):
+        os.makedirs(target_dir)
+        open(f'{target_dir}/__init__.py', 'w').close()
+    open(f'{target_dir}/{file_name}.py', 'w').close()
+
+    with open(f'{target_test_dir}/test_{file_name}.py', 'w') as file:
+        template = f'''import pytest
+
+
+@pytest.mark.parametrize(',expected', [
+    (),
+])
+@pytest.mark.parametrize('function', [])
+def test_{file_name}(expected, function):
+    result = function()
+    assert result == expected'''
+        print(template, file=file)
+
+
+file_name, level = table_data('Find', 7)
+create_files(file_name, level=level)
