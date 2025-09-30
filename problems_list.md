@@ -35,7 +35,7 @@
 | [remove_b_m_w.py](src/code_problems/code_wars/kyu_7/remove_b_m_w.py)                                                             | [Remove B M W](https://www.codewars.com/kata/59de795c289ef9197f000c48/train/python)                               | 7 Kyu |
 | [easy_time_convert.py](src/code_problems/code_wars/kyu_7/easy_time_convert.py)                                                   | [Easy Time Convert](https://www.codewars.com/kata/5a084a098ba9146690000969)                                       | 7 Kyu |
 | [find_the_area_of_the_rectangle.py](src/code_problems/code_wars/kyu_7/find_the_area_of_the_rectangle.py)                         | [Find the area of the rectangle!](https://www.codewars.com/kata/580a0347430590220e000091)                         | 7 Kyu |
-
+| [colored_hexes.py](src/code_problems/code_wars/kyu_7/colored_hexes.py)                                                           | [Colored Hexes](https://www.codewars.com/kata/57e17750621bca9e6f00006f)                                           | 7 Kyu |
 
 # LeetCode
 
