@@ -49,11 +49,13 @@ def create_files(file_name, platform='code_wars', level='kyu_7'):
 
     if not os.path.exists(target_dir):
         os.makedirs(target_dir)
-        open(f'{target_dir}/__init__.py', 'w').close()
-    open(f'{target_dir}/{file_name}.py', 'w').close()
+        open(f'{target_dir}/__init__.py', 'w', encoding='utf-8').close()
+    open(f'{target_dir}/{file_name}.py', 'w', encoding='utf-8').close()
 
-    with open(f'{target_test_dir}/test_{file_name}.py', 'w') as file:
-        template = f'''import pytest
+    with open(
+        f'{target_test_dir}/test_{file_name}.py', 'w', encoding='utf-8'
+    ) as file:
+        template = f"""import pytest
 
 
 @pytest.mark.parametrize(',expected', [
@@ -62,7 +64,7 @@ def create_files(file_name, platform='code_wars', level='kyu_7'):
 @pytest.mark.parametrize('function', [])
 def test_{file_name}(expected, function):
     result = function()
-    assert result == expected'''
+    assert result == expected"""
         print(template, file=file)
 
 

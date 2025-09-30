@@ -1,7 +1,5 @@
-
-def hex_color(codes: str):
-
-    if codes in ['', '000 000 000']:
+def hex_color(codes: str):  # noqa PLR0911
+    if codes in {'', '000 000 000'}:
         return 'black'
     r, g, b = codes.split()
 
