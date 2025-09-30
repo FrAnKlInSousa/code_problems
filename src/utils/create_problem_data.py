@@ -68,5 +68,6 @@ def test_{file_name}(expected, function):
         print(template, file=file)
 
 
-file_name, level = table_data('Boolean logic from scratch', 7)
-create_files(file_name)
+if __name__ == '__main__':
+    file_name, level = table_data('asd', 7)
+    create_files(file_name)
