@@ -66,5 +66,5 @@ def test_{file_name}(expected, function):
         print(template, file=file)
 
 
-file_name, level = table_data('Find', 7)
-create_files(file_name, level=level)
+file_name, level = table_data('Boolean logic from scratch', 7)
+create_files(file_name)
