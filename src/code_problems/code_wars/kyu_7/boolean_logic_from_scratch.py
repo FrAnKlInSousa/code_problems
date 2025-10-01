@@ -17,10 +17,12 @@ def func_xor(a, b):
         return True
     return False
 
+
 def func_xor_clever(a, b):
     if bool(a) is bool(b):
         return False
     return True
+
 
 def func_xor_clever_2(a, b):
     return bool(a) is not bool(b)

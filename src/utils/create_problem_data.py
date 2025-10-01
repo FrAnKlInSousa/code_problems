@@ -30,7 +30,6 @@ def build_path(source, level: [int, str]):
 
 def table_data(name: str, level: int | str = 'easy', source='code_wars'):
     formated_name = format_name(name)
-    print(formated_name, 'test_' + formated_name)
     path, difficult = build_path(source, level)
 
     file_name = f'{formated_name}'
