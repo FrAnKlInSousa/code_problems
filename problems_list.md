@@ -38,6 +38,7 @@
 | [colored_hexes.py](src/code_problems/code_wars/kyu_7/colored_hexes.py)                                                           | [Colored Hexes](https://www.codewars.com/kata/57e17750621bca9e6f00006f)                                           | 7 Kyu |
 | [boolean_logic_from_scratch.py](src/code_problems/code_wars/kyu_7/boolean_logic_from_scratch.py)                                 | [Boolean logic from scratch](https://www.codewars.com/kata/584d2c19766c2b2f6a00004f)                              | 7 Kyu |
 | [array_info.py](src/code_problems/code_wars/kyu_7/array_info.py)                                                                 | [Array Info](https://www.codewars.com/kata/57f12b4d5f2f22651c00256d)                                              | 7 Kyu |
+| [visible_dots_on_a_die.py](src/code_problems/code_wars/kyu_7/visible_dots_on_a_die.py)                                           | [Visible Dots On a Die](https://www.codewars.com/kata/5a39724945ddce2223000800)                                   | 7 Kyu |
 
 
 # LeetCode
