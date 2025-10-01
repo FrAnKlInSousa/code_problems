@@ -41,6 +41,7 @@
 | [visible_dots_on_a_die.py](src/code_problems/code_wars/kyu_7/visible_dots_on_a_die.py)                                           | [Visible Dots On a Die](https://www.codewars.com/kata/5a39724945ddce2223000800)                                   | 7 Kyu |
 | [band_name_generator.py](src/code_problems/code_wars/kyu_7/band_name_generator.py)                                               | [Band name generator](https://www.codewars.com/kata/59727ff285281a44e3000011/python)                              | 7 Kyu |
 | [sum_of_two_lowest_positive_integers.py](src/code_problems/code_wars/kyu_7/sum_of_two_lowest_positive_integers.py)               | [Sum of two lowest positive integers](https://www.codewars.com/kata/558fc85d8fd1938afb000014)                     | 7 Kyu |
+| [batman_quotes.py](src/code_problems/code_wars/kyu_7/batman_quotes.py)                                                           | [Batman Quotes](https://www.codewars.com/kata/551614eb77dd9ee37100003e)                                           | 7 Kyu |
 
 
 # LeetCode
