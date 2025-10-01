@@ -6,3 +6,7 @@ def total_amount_visible(top_num: int, num_of_sides):
         return sum(visible_dots)
     except ValueError:
         return top_num, num_of_sides
+
+
+def total_amount_visible_clever(top: int, sides):
+    return (sides + 1) * (sides // 2) - (sides + 1 - top)
