@@ -70,6 +70,3 @@ def array_info_clever(array):
             or None
         ],
     ]
-
-
-print(array_info_clever([1, 2, 3.33, 4, 5.01, 'bass', 'kick', ' ']))
