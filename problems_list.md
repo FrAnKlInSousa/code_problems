@@ -43,6 +43,8 @@
 | [sum_of_two_lowest_positive_integers.py](src/code_problems/code_wars/kyu_7/sum_of_two_lowest_positive_integers.py)               | [Sum of two lowest positive integers](https://www.codewars.com/kata/558fc85d8fd1938afb000014)                     | 7 Kyu |
 | [batman_quotes.py](src/code_problems/code_wars/kyu_7/batman_quotes.py)                                                           | [Batman Quotes](https://www.codewars.com/kata/551614eb77dd9ee37100003e)                                           | 7 Kyu |
 | [factorial.py](src/code_problems/code_wars/kyu_7/factorial.py)                                                                   | [Factorial](https://www.codewars.com/kata/54ff0d1f355cfd20e60001fc)                                               | 7 Kyu |
+| [decade_80_s_kids_1_how_many_licks_does_it_take.py](src/code_problems/code_wars/kyu_7/decade_80_s_kids_1_how_many_licks_does_it_take.py)       | [80's Kids #1: How Many Licks Does it Take?](https://www.codewars.com/kata/566091b73e119a073100003a)              | 7 Kyu |
+
 
 
 # LeetCode
