@@ -1,9 +1,6 @@
 class BatmanQuotes(object):
-
     def __init__(self):
-        self.persons = {'B': 'Batman',
-                   'R': 'Robin',
-                   'J': 'Joker'}
+        self.persons = {'B': 'Batman', 'R': 'Robin', 'J': 'Joker'}
 
     @staticmethod
     def find_index(hero: str):
@@ -22,7 +19,6 @@ class BatmanQuotes(object):
 
 
 class BatmanQuotesClever(object):
-
     @staticmethod
     def get_quote(quotes: list, hero: str):
         heroes = ['Batman', 'Robin', 'Joker']
