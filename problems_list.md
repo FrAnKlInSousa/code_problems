@@ -47,6 +47,7 @@
 | [red_knight.py](src/code_problems/code_wars/kyu_7/red_knight.py)                                                                         | [red knight](https://www.codewars.com/kata/5fc4349ddb878a0017838d0f/train/python)                                 | 7 Kyu |
 | [most_digits.py](src/code_problems/code_wars/kyu_7/most_digits.py)                                                                       | [Most digits](https://www.codewars.com/kata/58daa7617332e59593000006)                                             | 7 Kyu |
 | [knight_position.py](src/code_problems/code_wars/kyu_7/knight_position.py)                                                               | [Knight position](https://www.codewars.com/kata/5b5736abf1d553f844000050)                                         | 7 Kyu |
+| [naughty_or_nice.py](src/code_problems/code_wars/kyu_7/naughty_or_nice.py)                                                               | [Naughty or Nice?](https://www.codewars.com/kata/585eaef9851516fcae00004d)                                        | 7 Kyu |
 
 
 
