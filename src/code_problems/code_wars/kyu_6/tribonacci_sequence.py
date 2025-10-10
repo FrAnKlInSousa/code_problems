@@ -13,6 +13,7 @@ def tribonacci(signature: list, n):
                 size += 1
             return signature
 
+
 def tribonacci_clever(signature: list, n):
     if n < 4:
         return signature[:n]
