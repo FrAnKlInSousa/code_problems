@@ -51,6 +51,8 @@
 | [lucas_numbers.py](src/code_problems/code_wars/kyu_6/lucas_numbers.py)                                                                   | [Lucas numbers](https://www.codewars.com/kata/55a7de09273f6652b200002e)                                           | 7 Kyu |
 | [tribonacci_sequence.py](src/code_problems/code_wars/kyu_6/tribonacci_sequence.py)                                                       | [Tribonacci Sequence](https://www.codewars.com/kata/tribonacci-sequence)                                          | 7 Kyu |
 | [fibonacci_tribonacci_and_friends.py](src/code_problems/code_wars/kyu_6/fibonacci_tribonacci_and_friends.py)                             | [Fibonacci, Tribonacci and friends](https://www.codewars.com/kata/556e0fccc392c527f20000c5)                       | 6 Kyu |
+| [matrix_rotation.py](src/code_problems/code_wars/kyu_6/matrix_rotation.py)                                                               | [Matrix Rotation](https://www.codewars.com/kata/593e978a3bb47a8308000b8f)                                         | 7 Kyu |
+| [killer_garage_door.py](src/code_problems/code_wars/kyu_6/killer_garage_door.py)                                                         | [Killer Garage Door](https://www.codewars.com/kata/58b1ae711fcffa34090000ea)                                      | 7 Kyu |
 
 
 
