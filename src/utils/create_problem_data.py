@@ -72,5 +72,5 @@ def test_{file_name}(expected, function):
 
 
 if __name__ == '__main__':  # pragma: no cover
-    file_name, level = table_data('asd', 7)
-    create_files(file_name)
+    file_name, level = table_data('asd', 6)
+    create_files(file_name, level='kyu_6')
