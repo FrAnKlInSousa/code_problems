@@ -13,7 +13,7 @@ def controller(events: str):
         output.append(str(count))
 
         # if count == 5 and not stoped or count == 0 and not stoped:
-        if not stoped and (count == 5 or count == 0):
+        if not stoped and (count in {5, 0}):
             increment = -increment
             stoped = not stoped
 
