@@ -16,4 +16,11 @@ class Harshad:
             number += 1
 
     @staticmethod
-    def get_serie(): ...
+    def get_series(quantity: int, start: int = 0):
+        series = []
+
+        for _ in range(quantity):
+            start = Harshad().get_next(start)
+            series.append(start)
+
+        return series
