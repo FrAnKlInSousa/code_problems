@@ -53,6 +53,8 @@
 | [fibonacci_tribonacci_and_friends.py](src/code_problems/code_wars/kyu_6/fibonacci_tribonacci_and_friends.py)                             | [Fibonacci, Tribonacci and friends](https://www.codewars.com/kata/556e0fccc392c527f20000c5)                       | 6 Kyu |
 | [matrix_rotation.py](src/code_problems/code_wars/kyu_6/matrix_rotation.py)                                                               | [Matrix Rotation](https://www.codewars.com/kata/593e978a3bb47a8308000b8f)                                         | 7 Kyu |
 | [killer_garage_door.py](src/code_problems/code_wars/kyu_6/killer_garage_door.py)                                                         | [Killer Garage Door](https://www.codewars.com/kata/58b1ae711fcffa34090000ea)                                      | 7 Kyu |
+| [up_and_down.py](src/code_problems/code_wars/kyu_6/up_and_down.py)                                                                       | [up AND down](https://www.codewars.com/kata/56cac350145912e68b0006f0/python)                                      | 6 Kyu |
+| [the_lamp_revisited.py](src/code_problems/code_wars/kyu_6/the_lamp_revisited.py)                                                         | [The Lamp: Revisited](https://www.codewars.com/kata/570e6e32de4dc8a8340016dd)                                     | 6 Kyu |
 
 
 
