@@ -55,6 +55,7 @@
 | [killer_garage_door.py](src/code_problems/code_wars/kyu_6/killer_garage_door.py)                                                         | [Killer Garage Door](https://www.codewars.com/kata/58b1ae711fcffa34090000ea)                                      | 7 Kyu |
 | [up_and_down.py](src/code_problems/code_wars/kyu_6/up_and_down.py)                                                                       | [up AND down](https://www.codewars.com/kata/56cac350145912e68b0006f0/python)                                      | 6 Kyu |
 | [the_lamp_revisited.py](src/code_problems/code_wars/kyu_6/the_lamp_revisited.py)                                                         | [The Lamp: Revisited](https://www.codewars.com/kata/570e6e32de4dc8a8340016dd)                                     | 6 Kyu |
+| [harshad_or_niven_numbers.py](src/code_problems/code_wars/kyu_6/harshad_or_niven_numbers.py)                                             | [Harshad or Niven numbers](https://www.codewars.com/kata/54a0689443ab7271a90000c6)                                | 6 Kyu |
 
 
 
