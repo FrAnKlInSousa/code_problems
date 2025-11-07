@@ -16,9 +16,3 @@ def area(diagonal, side):
     if not area_rec.is_integer():
         return round(area_rec, 2)
     return int(area_rec)
-
-
-print(area(12, 5))
-print(area(5, 4))
-print(area(10, 6))
-print(area(13, 5))

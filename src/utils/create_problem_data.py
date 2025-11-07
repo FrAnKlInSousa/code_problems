@@ -1,3 +1,5 @@
+import os
+
 from src.utils.remove_extra_spaces import remove_extra_spaces
 
 
@@ -14,7 +16,7 @@ def format_name(name: str):
     return final_name
 
 
-def build_path(source, level: [int, str]):
+def build_path(source, level: [int, str]):  # pragma: no cover
     path = f'src/code_problems/{source}/'
     difficult = ''
     if source == 'code_wars':
@@ -26,16 +28,49 @@ def build_path(source, level: [int, str]):
     return path, difficult
 
 
-def table_data(name: str, level: int | str = 'easy', source='code_wars'):
+def table_data(
+    name: str, level: int | str = 'easy', source='code_wars'
+):  # pragma: no cover
     formated_name = format_name(name)
-    print(formated_name, 'test_' + formated_name)
     path, difficult = build_path(source, level)
 
+    file_name = f'{formated_name}'
     print(
         f'| [{formated_name}.py]'
         f'({path}/{formated_name}.py)'
         f' | [{name}]() | {difficult} |'
     )
+    return file_name, level
 
 
-table_data('Find', 7)
+def create_files(
+    file_name, platform='code_wars', level='kyu_7'
+):  # pragma: no cover
+    base_dir = '/home/franklin/projetos/code_problems/'
+    target_dir = f'{base_dir}src/code_problems/code_wars/{level}/'
+    target_test_dir = f'{base_dir}tests/test_code_wars/'
+
+    if not os.path.exists(target_dir):
+        os.makedirs(target_dir)
+        open(f'{target_dir}/__init__.py', 'w', encoding='utf-8').close()
+    open(f'{target_dir}/{file_name}.py', 'w', encoding='utf-8').close()
+
+    with open(
+        f'{target_test_dir}/test_{file_name}.py', 'w', encoding='utf-8'
+    ) as file:
+        template = f"""import pytest
+
+
+@pytest.mark.parametrize(',expected', [
+    (),
+])
+@pytest.mark.parametrize('function', [])
+def test_{file_name}(expected, function):
+    result = function()
+    assert result == expected"""
+        print(template, file=file)
+
+
+if __name__ == '__main__':  # pragma: no cover
+    file_name, level = table_data('asd', 6)
+    create_files(file_name, level='kyu_6')
